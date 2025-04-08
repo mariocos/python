@@ -1,1 +1,21 @@
 hello, i like snakes.
+
+
+/* virtual env */
+starting venv
+	[virtualenv venv]
+	[source venv/bin/activate]
+
+leaving venv
+	[deactivate]
+/*----------------------------------*/
+
+/* requirements */
+
+to freeze requirements into .txt
+	[pip freeze > requirements.txt]
+
+to install from requirements.txt
+	[pip install -r requirements.txt]
+
+/*--------------------------------------*/
